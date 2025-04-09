@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzería Claudia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sección de encabezado con el nombre de la pizzería -->
+  <header class="banner">
+    <h1>Pizzería Claudia</h1>
+  </header>
+
+  <!-- Sección de menú de pizzas -->
+  <section class="menu">
+    <h2>Menú</h2>
+
+    <!-- Pizza Margarita -->
+    <div class="pizza">
+      <h3>Pizza Margarita</h3>
+      <p>Tomate, mozzarella y albahaca</p>
+      <button onclick="pedir('Pizza Margarita')">Comprar</button>
+    </div>
+
+    <!-- Pizza 4 Quesos -->
+    <div class="pizza">
+      <h3>Pizza 4 Quesos</h3>
+      <p>Mozzarella, gorgonzola, parmesano y emmental</p>
+      <button onclick="pedir('Pizza 4 Quesos')">Comprar</button>
+    </div>
+  </section>
+
+  <!-- Archivo JS donde está la función que maneja el botón -->
+  <script src="script.js"></script>
+</body>
+</html>
